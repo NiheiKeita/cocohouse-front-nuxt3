@@ -1,5 +1,19 @@
 {
   "lang": "英語",
-  "welcome": "is English!",
+  "place": "place",
+  "CoCoHouseAccommodation": "CoCoHouse accommodation",
+  "asakusa": {
+    "test1": "This spacious room is 72 square meters in size and can accommodate up to 8 people.",
+    "test2": "Since it is in the center of Asakusa, it is within walking distance to major tourist spots such as Kaminarimon, Sensoji Temple, and Sky Tree!",
+    "test3": "You can see the Sky Tree and cherry blossoms from the balcony, and the night view is especially beautiful.",
+    "adress": "2-2-6 Hanakawado, Taito-ku, Tokyo 111-0033"
+  },
+  "hikifune": {
+    "test1": "Enjoy your stay in Tokyo at this accommodation located in the heart of Tokyo.",
+    "test2": "7 minutes walk from Keisei Hikifune Station, 13 minutes walk from Tokyo Metro Hikifune Station, 12 minutes walk from Yahiro Station, close to Asakusa Station and Sky Tree (Oshiage), making it a convenient environment for shopping and sightseeing.",
+    "test3": "Families can spend time together in the bedroom, so it's safe even with small children. Located in a quiet residential area, the environment is quiet even at night.",
+    "test4": "It is fully equipped with a washing machine, refrigerator, cooking utensils, and portable WiFi, making it suitable for long-term stays.",
+    "adress": "5-2-8 Yahiro, Sumida-ku, Tokyo 131-0041"
+  },
   "reservation": "reservation"
 }

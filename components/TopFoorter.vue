@@ -41,11 +41,6 @@
               </div>
             </div>
           </div>
-          <div class="hidden space-x-4 text-xl font-bold lg:flex">
-            <p class="flex items-center justify-center">メニュー１</p>
-            <p class="flex items-center justify-center">メニュー２</p>
-            <p class="flex items-center justify-center">メニュー３</p>
-          </div>
         </div>
       </div>
     </div>

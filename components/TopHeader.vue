@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const { setLocale, locale } = useI18n();
+  const { setLocale } = useI18n();
   const langSelect = (e: any) => {
     console.log(e.target.value);
     setLocale(e.target.value);
@@ -40,11 +40,11 @@
             中国語
           </option>
           <option
-            :selected="'英語' == $t('lang')"
+            :selected="'English' == $t('lang')"
             value="en"
             class="cursor-pointer text-right"
           >
-            英語
+            English
           </option>
         </select>
         <!-- <div class="flex items-center justify-center">

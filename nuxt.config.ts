@@ -21,7 +21,10 @@ export default defineNuxtConfig({
     [
       '@nuxtjs/i18n',
       {
-        /* module options */
+        detectBrowserLanguage: {
+          useCookie: true,
+          cookieKey: 'i18n_redirected',
+        },
       },
     ],
   ],
