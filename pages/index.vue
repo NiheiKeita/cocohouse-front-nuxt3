@@ -40,7 +40,9 @@
         浅草の中心地なので、雷門、浅草寺、スカイツリーなど主要観光スポットへも徒歩圏内です！<br /><br />
         バルコニーからはスカイツリーや桜が見え、特に夜景が綺麗です。<br />
       </p>
-      <ButtonDefaultThema class="mt-5">予約する</ButtonDefaultThema>
+      <ButtonDefaultThema class="mt-5">
+        {{ $t('reservation') }}
+      </ButtonDefaultThema>
       <div>
         <TextSubTitleArea class="mt-6" text="場所" />
 
@@ -81,9 +83,9 @@
         家族同士が寝室でも一緒に過ごすことができるため、小さなお子様連れでも安心です。閑静な住宅街の中にあり、夜間も静かな環境です。<br /><br />
         洗濯機、冷蔵庫、調理器具などを完備し、ポータブルWiFiも設置しているため、長期滞在にも対応可能です。<br />
       </p>
-      <ButtonDefaultThema class="mt-5" :route="routePathList('inn_hikifune')"
-        >予約する</ButtonDefaultThema
-      >
+      <ButtonDefaultThema class="mt-5" :route="routePathList('inn_hikifune')">
+        {{ $t('reservation') }}
+      </ButtonDefaultThema>
       <div>
         <TextSubTitleArea class="mt-6" text="場所" />
         <div class="flex aspect-video items-center justify-center p-2">
