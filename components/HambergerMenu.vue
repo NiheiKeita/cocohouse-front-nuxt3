@@ -11,13 +11,9 @@
 <template>
   <div class="">
     <div class="mx-auto flex h-10 w-full items-center justify-between px-6">
-      <div class="text-white">
-        <button
-          v-show="!showMenu"
-          class="focus:outline-none"
-          @click="toggleStatus"
-        >
-          <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+      <div class="flex items-center justify-center text-black">
+        <button class="focus:outline-none" @click="toggleStatus">
+          <svg class="h-6 w-6 fill-current lg:h-8 lg:w-8" viewBox="0 0 24 24">
             <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
           </svg>
         </button>
@@ -27,7 +23,7 @@
       <div v-show="showMenu" class="fixed right-0 top-0 h-full w-1/2 lg:w-1/4">
         <ul class="relative z-20 h-full bg-ThemaColor">
           <li class="flex h-10 items-center justify-end px-6 pt-3">
-            <div class="flex items-center justify-end text-white">
+            <div class="flex items-center justify-end text-black">
               <button
                 v-show="showMenu"
                 class="focus:outline-none"

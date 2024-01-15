@@ -11,9 +11,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ThemaColor: '#e8bab2',
-        MainColor: '#F9EDEB',
-        SubThemaColor: '#B0C9E5',
+        ThemaColor: '#FFDBC9',
+        MainColor: '#FFF6F1',
+        SubThemaColor: '#FFFFFF',
         SubBgThemaColor: '#fefcfb',
         TexasRose: '#ffad5b',
         ThemaColorComplementary: '#5badff',
