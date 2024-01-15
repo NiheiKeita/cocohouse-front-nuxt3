@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'cocohouse',
+      title: 'CoCoHouse',
       meta: [
         { hid: 'og:image', property: 'og:image', content: '/images/logo.png' },
       ],

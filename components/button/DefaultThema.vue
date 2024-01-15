@@ -17,9 +17,9 @@
   <div class="flex items-center justify-center">
     <a href="javascript:void(0)" @click="clickEvent">
       <div
-        class="min-w-[200px] rounded-lg border border-ThemaColorComplementary bg-ThemaColor hover:bg-ThemaColorHover"
+        class="min-w-[200px] rounded-lg border border-gray-700 bg-ThemaColor hover:bg-ThemaColorHover"
       >
-        <p class="mx-10 my-1 flex justify-center text-lg text-white lg:my-2">
+        <p class="mx-10 my-1 flex justify-center text-lg text-black lg:my-2">
           <slot />
         </p>
       </div>

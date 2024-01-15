@@ -1,6 +1,6 @@
 <script setup>
   const langSelect = (e) => {
-    window.location.href = route('www.lang.change', e.target.value);
+    // window.location.href = route('www.lang.change', e.target.value);
   };
 </script>
 
@@ -13,7 +13,7 @@
           <p
             class="ml-2 flex h-14 items-center justify-center text-2xl font-bold leading-3 text-black lg:text-4xl"
           >
-            cocohouse
+            CoCoHouse
           </p>
         </div>
       </nuxt-link>
