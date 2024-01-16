@@ -11,6 +11,10 @@
         property: 'description',
         content: 'CoCoHouseのTOPページです。',
       },
+      {
+        property: 'robots',
+        content: 'noindex',
+      },
     ],
   });
   const redirectPath = (url: string) => {
@@ -20,7 +24,7 @@
 
 <template>
   <div>
-    <TextDefaultArea class="my-4" text="CoCoHouseの宿" />
+    <TextDefaultArea class="my-4" :text="$t('CoCoHouseAccommodation')" />
     <div class="bg-SubThemaColor py-1">
       <TextInnTitleArea
         class="mt-4"
@@ -61,7 +65,7 @@
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <p class="mx-3 mb-3 text-xs lg:text-sm">
+        <p class="mx-3 mb-3 text-end text-sm lg:text-lg">
           {{ $t('asakusa.adress') }}
         </p>
       </div>
@@ -106,7 +110,7 @@
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <p class="mx-3 mb-3 text-xs lg:text-sm">
+        <p class="mx-3 mb-3 text-end text-sm lg:text-lg">
           {{ $t('hikifune.adress') }}
         </p>
       </div>

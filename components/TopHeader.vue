@@ -1,7 +1,6 @@
 <script setup lang="ts">
   const { setLocale } = useI18n();
   const langSelect = (e: any) => {
-    console.log(e.target.value);
     setLocale(e.target.value);
   };
 </script>
